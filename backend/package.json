@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/main.js",
+  "scripts": {
+    "start": "node server/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^4.0.0",
+    "compile-run": "^2.3.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "hashmap": "^2.4.0",
+    "mongoose": "^5.9.7",
+    "node-cache": "^5.1.0",
+    "request": "^2.88.2",
+    "username-generator": "^1.1.0"
+  }
+}
